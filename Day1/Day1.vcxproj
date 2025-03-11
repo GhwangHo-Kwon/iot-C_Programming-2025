@@ -135,6 +135,7 @@
     <ClCompile Include="printf4.c" />
     <ClCompile Include="printf_pr01.c" />
     <ClCompile Include="value.c" />
+    <ClCompile Include="value2.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
