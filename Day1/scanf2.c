@@ -3,15 +3,15 @@
 //int main()
 //{
 //	char str[20];
-//	printf("¹®ÀÚ¿­À» ÀÔ·ÂÇÏ¼¼¿ä: ");
+//	printf("ë¬¸ìì—´ì„ ì…ë ¥í•˜ì„¸ìš”: ");
 //	scanf_s("%s", str, sizeof(str));
 //
-//	printf("ÀÔ·ÂÇÑ ¹®ÀÚ¿­: %s\n", str);
+//	printf("ì…ë ¥í•œ ë¬¸ìì—´: %s\n", str);
 //
-//	/*printf("char Å©±â: %d\n", sizeof(char));
-//	printf("Á¤¼ö Å©±â: %d\n", sizeof(int));
-//	printf("float Å©±â: %d\n", sizeof(float));
-//	printf("double Å©±â: %d\n", sizeof(double));*/
+//	/*printf("char í¬ê¸°: %d\n", sizeof(char));
+//	printf("ì •ìˆ˜ í¬ê¸°: %d\n", sizeof(int));
+//	printf("float í¬ê¸°: %d\n", sizeof(float));
+//	printf("double í¬ê¸°: %d\n", sizeof(double));*/
 //
 //	return 0;
 //}
