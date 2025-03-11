@@ -65,6 +65,7 @@
         scanf("%d", &n1, &n2);
         printf("%d, %d", n1, n2);
         ```
+    - `#define _CRT_SECURE_NO_WARNINGS`을 안쓸거면 `scanf_s()` 함수 사용
 
 - 변수 : [C](./Day1/value.c), ... [value2~6.c 파일 참조]
     - 변수란 `무언가를 저장할 수 있는 공간(값)`을 의미.
