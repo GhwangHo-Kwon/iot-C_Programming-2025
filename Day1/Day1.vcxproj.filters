@@ -30,7 +30,7 @@
     <ClCompile Include="printf3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="printf_pr01.c">
+    <ClCompile Include="pr01_printf.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="printf4.c">
@@ -40,6 +40,27 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="value2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="value3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="value4.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="value5.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="value6.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="scanf.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="scanf2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pr02_day1_Fin.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

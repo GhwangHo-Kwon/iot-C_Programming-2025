@@ -27,4 +27,5 @@
 //RAM : Random Access Memory
 //int : 정수
 //char : 문자
+//float, double : 실수
 //*/
