@@ -21,7 +21,7 @@
     <ClCompile Include="name.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="printf01.c">
+    <ClCompile Include="printf1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="printf2.c">
@@ -61,6 +61,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="pr02_day1_Fin.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pr03_ageName.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

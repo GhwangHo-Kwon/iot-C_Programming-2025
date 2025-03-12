@@ -76,7 +76,6 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -131,7 +130,8 @@
     <ClCompile Include="HelloWorld.c" />
     <ClCompile Include="name.c" />
     <ClCompile Include="pr02_day1_Fin.c" />
-    <ClCompile Include="printf01.c" />
+    <ClCompile Include="pr03_ageName.c" />
+    <ClCompile Include="printf1.c" />
     <ClCompile Include="printf2.c" />
     <ClCompile Include="printf3.c" />
     <ClCompile Include="printf4.c" />
