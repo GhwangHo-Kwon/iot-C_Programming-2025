@@ -11,33 +11,39 @@ int main()
     char oper;
 
     printf("계산기 프로그램입니다.\n");
-    printf("두개의 정수를 입력하세요 > ");
-    scanf_s("%d %d", &a, &b);
 
-    printf("연산자를 입력하세요 > ");
-    scanf_s(" %c", &oper, sizeof(oper));
+    while (1) {
+        printf("두개의 정수를 입력하세요 > ");
+        scanf_s("%d %d", &a, &b);
 
-    if (oper == '+') {
-        printf("결과 : %d\n", plus(a, b));
-    }
-    else if (oper == '-') {
-        printf("결과 : %d\n", minus(a, b));
-    }
-    else if (oper == '*') {
-        printf("결과 : %d\n", mul(a, b));
-    }
-    else if (oper == '/') {
-        if (b == 0) {
-            printf("0으로 나눌 수 없습니다.\n");
+        printf("연산자를 입력하세요 > ");
+        scanf_s(" %c", &oper, sizeof(oper));
+
+        if (oper == '+') {
+            printf("결과 : %d\n", plus(a, b));
+        }
+        else if (oper == '-') {
+            printf("결과 : %d\n", minus(a, b));
+        }
+        else if (oper == '*') {
+            printf("결과 : %d\n", mul(a, b));
+        }
+        else if (oper == '/') {
+            if (b == 0) {
+                printf("0으로 나눌 수 없습니다.\n");
+            }
+            else {
+                printf("결과 : %.1lf\n", div(a, b));
+            }
+        }
+        else if (oper == 'q'){
+            printf("종료합니다.");
+            break;
         }
         else {
-            printf("결과 : %.1lf\n", div(a, b));
+            printf("연산자 입력 오류!\n");
         }
     }
-    else {
-        printf("연산자 입력 오류!\n");
-    }
-
     return 0;
 }
 
