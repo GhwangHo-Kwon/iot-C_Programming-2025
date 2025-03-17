@@ -132,6 +132,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="array2.c" />
+    <ClCompile Include="arraypointer.c" />
     <ClCompile Include="doublePointer.c" />
     <ClCompile Include="doublepointer2.c" />
     <ClCompile Include="pointArray.c" />
