@@ -380,6 +380,9 @@ stArray.c
 
 - 구조체(struct) : [C1](./Day5/struct.c), [C2](./Day5/struct2.c), ..., [C5](./Day5/struct5.c)
     - 사용자 정의 자료형 = 구조체, 공용체...
+    - 구조체(사용자 정의 자료형)도 일반적인 자료형과 동일하게 사용
+    - C의 구조체는 C++의 클래스와 모양이 비슷함
+    - C에선 return(반환)이 변수 1개 밖에 안되지만 구조체를 사용하면 억지로 2가지 이상을 반환시킬 수 있음
     - 기존 자료형을 묶어서 만든 복합자료형(타입 = 크기)
         ```c
         struct Humman {             // 구조체 선언 -> sturct 구조체명 { 구조체 객체 }
@@ -387,3 +390,25 @@ stArray.c
             int age;                // 멤버변수
         };  // 끝에 ; 필수!
         ```
+    - 구조체 변수 선언 후 이름(별명) 지정 - `struct Humman h;`
+    - 구조체 안에 구조체 호출(불러오기) 가능
+        ```c
+        struct profile {
+            int age;
+            double height;
+            double weight;
+        };
+        struct student {
+            struct profile pf;      // 구조체 안에 구조체 호출
+            int id;
+            double grade;
+        };
+        ```
+    - `typedef` : 타입을 재정의 하는 것으로 `typedef int int32mt;`에서
+        `int32mt`와 같이 마지막에 이름(별칭)을 지정
+- 구조체 포인터 : [C](./Day5/stpointer.c)
+    - 구조체 변수를 통해서 멤버에 접근하는 방법 : `.`(멤버접근 연산자)사용
+    - 구조체 포인터를 통해서 멤버에 접근하는 방법 : `->` (화살표연산자, 애로우연산자)사용
+- 구조체 배열 : [C](./Day5/stArray.c), [C](./Day5/pr04_stArray.c)
+    - 구조체에 여러 타입의 자료형을 선언 후 배열을 만듦
+    - 파이썬의 리스트와 비슷한 형태
