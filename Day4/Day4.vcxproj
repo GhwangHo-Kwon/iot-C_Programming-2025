@@ -133,10 +133,21 @@
   <ItemGroup>
     <ClCompile Include="array2.c" />
     <ClCompile Include="arraypointer.c" />
+    <ClCompile Include="char4.c" />
     <ClCompile Include="doublePointer.c" />
     <ClCompile Include="doublepointer2.c" />
     <ClCompile Include="pointArray.c" />
     <ClCompile Include="pointerArray.c" />
+    <ClCompile Include="strcat.c" />
+    <ClCompile Include="strcmp.c" />
+    <ClCompile Include="strcpy.c" />
+    <ClCompile Include="string.c" />
+    <ClCompile Include="string2.c" />
+    <ClCompile Include="string3.c" />
+    <ClCompile Include="string4.c" />
+    <ClCompile Include="strlen.c" />
+    <ClCompile Include="variable.c" />
+    <ClCompile Include="variable2.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

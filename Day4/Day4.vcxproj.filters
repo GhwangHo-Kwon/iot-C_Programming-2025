@@ -33,5 +33,38 @@
     <ClCompile Include="arraypointer.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="char4.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="strcat.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="strcmp.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="strcpy.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="string.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="string2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="string3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="string4.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="strlen.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="variable.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="variable2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
