@@ -340,3 +340,50 @@
     - 대소문자 변환 : [C](./Day3/char3.c), [C](./Day3/pr02_convertStr.c)
 
 ## 4일차
+
+## 5일차
+<!--
+main.c > voidpointer1,2.c > malloc1,2.c > struct1~5.c > stpointer.c > spointer.c >
+stArray.c
+-->
+- main() : [C](./Day5/main.c)
+    - main함수의 ()안에는 `int argc, char ** argv`가 들어있으나 평소 생략함.
+    - `int argc, char ** argv` 포인터 배열 또는 이중포인터로 바꿀 수 있음
+        - 예 - `* argv[]` or `** argv`
+
+- 함수 포인터 : [C](./Day5/voidpointer.c), [C](./Day5/voidpointer2.c)
+    - 함수이름(함수의 시작위치) 자체가 포인터(주소)
+    ```c
+    int sum(int, int);      // 원형 선언
+    int main()
+    {
+        int (*fp)(int, int);        // 함수 포인터를 사용하려면 입출력 (자료형)형태가 같아야함.
+        int res;
+        fp = sum;               // 함수 포인터로 함수 호출
+        res = fp(20, 10);
+    }
+    ```
+
+    ```c
+    //(int*)p = &n;     // 대입연산자 기준으로 좌측(l_value)에서는 형변환 안됨!
+    void* p;
+    printf("*p: %d\n", *(int*)p);       // void 타입에는 정수형(%d)을 그냥 사용X 자료형을 정확히 명시해야함
+    ```
+
+- 메모리 동적 할당 : [C](./Day5/malloc.c), [C](./Day5/malloc2.c)
+    - malloc + free 함수 세트
+        - `int* pi = (int*)malloc(sizeof(int));` - 힙영역에 입력크기만큼 메모리 공간을 할당받은 후 시작주소를 리턴
+        - `free(pi)` - 힙영역의 메모리공간 사용이 다 끝나면 반환해주기
+    - calloc : 메모리를 동적 할당하여 0으로 초기화
+    - realloc : 크기조절
+    - 배열 사용시 포인터 배열로 데이터를 생성해야함 - [C_practice](./Day5/pr02_malloc.c)
+
+- 구조체(struct) : [C1](./Day5/struct.c), [C2](./Day5/struct2.c), ..., [C5](./Day5/struct5.c)
+    - 사용자 정의 자료형 = 구조체, 공용체...
+    - 기존 자료형을 묶어서 만든 복합자료형(타입 = 크기)
+        ```c
+        struct Humman {             // 구조체 선언 -> sturct 구조체명 { 구조체 객체 }
+            char name[100];         // 멤버변수
+            int age;                // 멤버변수
+        };  // 끝에 ; 필수!
+        ```
